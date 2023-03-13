@@ -174,3 +174,15 @@ We sampled each dataset given a weighted probability which configuration is deta
 | [SQuAD2.0](https://rajpurkar.github.io/SQuAD-explorer/) | [paper](https://aclanthology.org/P18-2124.pdf) | 87,599 |
 | [TriviaQA](https://huggingface.co/datasets/trivia_qa) | - | 73,346 |
 | **Total** | | **1,170,060,424** |
+
+
+
+
+
+Commands:
+pip install -r requirements.txt 
+pip install streamlit --user
+py -m streamlit run app.py
+git add .
+git commit -m "msg"
+git push origin
